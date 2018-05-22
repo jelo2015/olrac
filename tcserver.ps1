@@ -490,7 +490,7 @@ function Main-Program{
 		                    Output-Message "Removal of lock file failed" -err
 		                }
 
-		                Output-Message "Closing ftp session"
+		                Output-Message "Closing ftp sessions"
 		                $session.Dispose()
 
 		                Output-Message "Removing temp directory"
